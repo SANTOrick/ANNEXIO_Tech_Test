@@ -135,7 +135,7 @@ export default NationModal;
   position: fixed;
   top: 35%;
   left: 50%;
-  width: 400px;
+  width: 450px;
   transform: translateY(-50%) translateX(-50%);
   background: #e9e5e5;
   box-shadow: #2a2a29 3px 3px 20px 7px;
