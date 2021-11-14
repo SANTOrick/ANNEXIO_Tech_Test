@@ -122,8 +122,6 @@ export default defineComponent({
       return 0;
     });
 
-    console.log(this.nationsInUse);
-
     this.loading = false;
   },
 });

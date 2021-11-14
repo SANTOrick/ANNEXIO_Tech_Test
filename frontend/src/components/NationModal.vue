@@ -75,7 +75,6 @@ const NationModal = defineComponent({
 
   methods: {
     close() {
-      console.log("ad");
       this.$emit("close");
     },
   },
