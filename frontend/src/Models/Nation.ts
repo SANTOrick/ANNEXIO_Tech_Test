@@ -1,3 +1,4 @@
+import { Flags } from "./Flags";
 import { NationName } from "./NationName";
 
 export interface Nation {
@@ -9,4 +10,5 @@ export interface Nation {
     languages: object;
     cca3: string
     cca2: string;
+    flags: Flags;
 }

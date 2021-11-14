@@ -18,10 +18,10 @@
         v-if="addMostPopuloseFilter"
         class="button-active"
       >
-        Most populose
+        Most populous 
       </button>
       <button @click="udpateFilters" v-else class="button-not-active">
-        Most populose
+        Most populous 
       </button>
     </div>
     <div v-if="!loading">

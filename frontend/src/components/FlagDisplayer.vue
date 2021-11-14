@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <img
-      :src="assembleFlagSrc()"
+      :src="nation.flags.png"
       width="80"
       height="50"
       class="flag"
@@ -17,16 +17,6 @@ import { Nation } from "../Models/Nation";
 export default defineComponent({
   props: {
     nation: Object as PropType<Nation>,
-  },
-
-  methods: {
-    assembleFlagSrc(): string {
-      return (
-        "https://flagcdn.com/256x192/" +
-        this.nation!.cca2.toLowerCase() +
-        ".png"
-      );
-    },
   },
 });
 </script>

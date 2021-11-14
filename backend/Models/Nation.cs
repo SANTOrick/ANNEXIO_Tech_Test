@@ -16,5 +16,7 @@ namespace annexio.models
 
         public string Cca3 { get; set; }
         public string Cca2 { get; set; }
+
+        public Flags Flags {get; set;}
     }
 }
